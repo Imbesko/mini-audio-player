@@ -1,0 +1,36 @@
+body {
+    background: #DBDBDB;
+}
+
+h1 {
+	color: #5A5A5A;
+}
+
+.container {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.player {
+	width: 340px;
+	margin: 0 auto;
+	background: #FAFAFA;
+	border-radius: 10px;
+	border: 2px solid #5A5A5A;
+}
+
+#playlist {
+    list-style: none;
+    text-align: left;
+}
+
+#playlist li a {
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+#playlist .current-song a {
+    color: #4285F4;
+}
+
+

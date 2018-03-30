@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="player">
+        <h1>Audio Player</h1>
+        <audio controls id="aPlayer" >
+            Sorry, your browser doesn't support HTML5
+        </audio>
+        <ul id="playlist">
+            <li class="current-song">
+                <a href="audio/C2C_-_Down_The_Road.mp3">
+                    C2C - Down The Road
+                </a>
+            </li>
+            <li>
+                <a href="audio/Ed_Sheeran_-_Sing.mp3">
+                    Ed Sheeran - Sing
+                </a>
+            </li>
+            <li>
+                <a href="audio/Can_-_She_Brings_The_Rain.mp3">
+                Can - She Brings The Rain
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="audioPlayer.js"></script>
+<script>
+    // player();
+</script>
+</body>
+</html>
